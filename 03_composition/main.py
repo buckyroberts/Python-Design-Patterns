@@ -1,17 +1,17 @@
-class Head:
+class Head(object):
 
     def __init__(self, eye_color, hair_color):
         self.eye_color = eye_color
         self.hair_color = hair_color
 
 
-class Body:
+class Body(object):
 
     def __init__(self, weight):
         self.weight = weight
 
 
-class Person:
+class Person(object):
 
     def __init__(self, eye_color, hair_color, weight):
         self.head = Head(eye_color, hair_color)

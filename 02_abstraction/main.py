@@ -1,4 +1,4 @@
-class Rectangle:
+class Rectangle(object):
 
     @staticmethod
     def calculate_area(width, height):

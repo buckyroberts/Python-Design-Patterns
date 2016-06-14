@@ -1,4 +1,4 @@
-class Enemy:
+class Enemy(object):
 
     def move_left(self):
         print('Moving left...')

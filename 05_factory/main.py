@@ -1,7 +1,7 @@
 from random import randrange
 
 
-class Weapon:
+class Weapon(object):
     name = None
     cost = None
 
