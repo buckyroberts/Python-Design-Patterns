@@ -1,4 +1,4 @@
-class Publisher:
+class Publisher(object):
     users = set()
 
     def register(self, user):
@@ -12,7 +12,7 @@ class Publisher:
             user.notify(message)
 
 
-class Subscriber:
+class Subscriber(object):
 
     def __init__(self, username):
         self.username = username
