@@ -4,7 +4,7 @@ class Enemy(object):
         print('Moving left...')
 
     def move_right(self):
-        print('Moving left...')
+        print('Moving right...')
 
 
 class Ninja(Enemy):
@@ -27,7 +27,7 @@ ninja = Ninja()
 ninja.move_left()
 ninja.karate_chop()
 
-# Zombie is called the (child class), inherits from Enemy (parent class)
+# Zombie is called (the child class), inherits from Enemy (parent class)
 zombie = Zombie()
 zombie.move_right()
 zombie.bite()
