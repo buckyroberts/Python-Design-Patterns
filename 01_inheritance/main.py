@@ -4,7 +4,7 @@ class Enemy(object):
         print('Moving left...')
 
     def move_right(self):
-        print('Moving left...')
+        print('Moving right...')
 
 
 class Ninja(Enemy):
